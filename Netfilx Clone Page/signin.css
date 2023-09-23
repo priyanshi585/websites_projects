@@ -1,0 +1,221 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  /* :root {
+        --navbar-height: 60px;
+    } */
+
+
+  #signin::before {
+    content: "";
+    /* background: rgb(6, 6, 73); */
+    /* background: url('https://www.shutterstock.com/image-illustration/violet-purple-red-dark-gradient-260nw-1007117992.jpg') no-repeat center center/cover ; */
+    background: url('https://repository-images.githubusercontent.com/299409710/b42f7780-0fe1-11eb-8460-e459acd20fb4') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 7.3;
+    top: 0px;
+    left: 0px;
+  }
+  
+  h1{
+    margin-left: 120px;
+    margin-top: 90px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+    color: white;
+    /* margin-top: 100px; */
+  }
+  
+   p{
+    margin-left: 120px;
+    color:white;
+    font-size: 30px;
+  }
+  
+  /* .logo{
+    margin-left: 750px;
+  } */
+  
+  .input-box1{
+    margin-left: 50px;
+    /* margin-top: 60px; */
+    /* width: 800px; */
+    /* height: 10px; */
+    padding: 5px 10px 10px 10px;
+    color:black;
+    font-size: 30px;
+  }
+  .text{
+    height: 40px;
+    width: 400px;
+    font-size: 23px;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* margin:10px 10px 10px; */
+    border:2px solid black;
+    border-radius: 10px;
+    color: black;
+  }
+  
+  .box{
+    background-color: black;
+    width: 500px;
+    /* margin:100px 100px 200px; */
+    height: 650px;
+    margin-left: 750px;
+    margin-right: 500px;
+    margin-top: 170px;
+  }
+  
+  .btn{
+    margin-left: 150px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 200px;
+    font-size: 30px;
+    color: black;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 20px;
+  }
+
+  .btn a{
+    text-decoration: none;
+    color: white;
+  }
+  .btn:hover{
+    background-color: rgb(205, 24, 24);
+  }
+
+  
+  .head1 a{
+    text-decoration: none;
+    color: white;
+  }
+  .head1 a:hover{
+    color: rgb(229, 211, 211);
+    text-decoration: underline;
+  }
+
+  .footer{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+
+
+
+  /* -----------------Responsive-------------- */
+
+  @media screen and (max-width:650px) and (min-width:350px){
+
+    #signin::before {
+      content: "";
+      /* background: rgb(6, 6, 73); */
+      /* background: url('https://www.shutterstock.com/image-illustration/violet-purple-red-dark-gradient-260nw-1007117992.jpg') no-repeat center center/cover ; */
+      background: url('https://repository-images.githubusercontent.com/299409710/b42f7780-0fe1-11eb-8460-e459acd20fb4') no-repeat center center/cover;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+      opacity: 7.3;
+      top: 0px;
+      left: 0px;
+    }
+    
+    h1{
+      margin-left: 110px;
+      /* margin-top: -100px; */
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 40px;
+      color: white;
+      /* margin-top: 80px; */
+    }
+    
+     p{
+      margin-left: 90px;
+      color:white;
+      font-size: 20px;
+      margin-top: -10px;
+    }
+    
+    /* .logo{
+      margin-left: 750px;
+    } */
+    
+    .input-box1{
+      margin-left: 50px;
+      margin-top: -10px;
+      /* width: 800px; */
+      /* height: 10px; */
+      padding: 5px 10px 10px 10px;
+      /* color:black; */
+      font-size: 30px;
+    }
+    .text{
+      height: 40px;
+      width: 250px;
+      font-size: 20px;
+      justify-content: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      /* margin:10px 10px 10px; */
+      border:2px solid black;
+      border-radius: 10px;
+      /* color: black; */
+    }
+    
+    .box{
+      background-color: black;
+      width: 350px;
+      /* margin:100px 100px 200px; */
+      height: 520px;
+      margin-left: 20px;
+      /* margin-right: 500px; */
+      margin-top: -40px;
+    }
+    
+    .btn{
+      margin-left: 110px;
+      margin-top: 20px;
+      padding: 5px;
+      width: 140px;
+      font-size: 20px;
+      /* color: black; */
+      background-color: red;
+      border: 2px solid red;
+      border-radius: 20px;
+    }
+  
+    .btn a{
+      text-decoration: none;
+      color: white;
+    }
+    .btn:hover{
+      background-color: rgb(205, 24, 24);
+    }
+  
+    
+    .head1 a{
+      text-decoration: none;
+      color: white;
+    }
+    .head1 a:hover{
+      color: rgb(229, 211, 211);
+      text-decoration: underline;
+    }
+  
+    .footer{
+      font-size: 15px;
+      margin-left: 20px;
+      margin-top: 15px;
+    }
+  }

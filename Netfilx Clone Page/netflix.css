@@ -1,0 +1,1873 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* :root {
+      --navbar-height: 60px;
+  } */
+
+/* ---------------------------------Home page-------------------------------------------------- */
+
+#logo img {
+  margin-top: -20px;
+  /* font-size:-200px; */
+  /* margin-left: -100px; */
+  height: 150px;
+}
+
+#options {
+  margin-top: -90px;
+  margin-left: 1300px;
+}
+
+#option {
+  padding: 5px;
+  height: 50px;
+  width: 120px;
+  margin-left: -160px;
+  margin-top: -10px;
+  background: none;
+  border-radius: 10px;
+  font-size: 20px;
+  justify-content: center;
+  color: white;
+  border: 3px solid white;
+}
+
+.sign-in {
+  padding: 5px;
+  height: 50px;
+  width: 120px;
+  margin-left: 0px;
+  color: white;
+  background-color: red;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.sign-in a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.sign-in:hover {
+  background-color: rgb(228, 7, 7);
+}
+
+#home::before {
+  content: "";
+  /* background: rgb(6, 6, 73); */
+  /* background: url('https://help.nflxext.com/0af6ce3e-b27a-4722-a5f0-e32af4df3045_what_is_netflix_5_en.png') no-repeat center center/cover; */
+  background: url('https://repository-images.githubusercontent.com/299409710/b42f7780-0fe1-11eb-8460-e459acd20fb4') no-repeat center center/cover;
+  position: absolute;
+  height: 93%;
+  width: 100%;
+  z-index: -1;
+  opacity: 7.0;
+  top: 0px;
+  left: 0px;
+}
+
+h1 {
+  margin-left: 200px;
+  margin-top: 30px;
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}
+
+p {
+  margin-top: 30px;
+  font-size: 25px;
+  color: white;
+  margin-left: 200px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.email p {
+  font-size: 28px;
+}
+
+.input-box {
+  text-align: center;
+  display: block;
+  padding: 10px;
+  font-size: 1.25rem;
+  margin-left: -325px;
+}
+
+.text {
+  border: 3px solid white;
+  padding-left: 12px;
+  /* border-radius: 10px; */
+  width: 500px;
+  height: 50px;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgb(27, 26, 26);
+  /* background: none; */
+  /* font-weight: bolder; */
+}
+
+.btn {
+  padding: 10px;
+  height: 60px;
+  width: 250px;
+  /* margin-left: 850px; */
+  margin-top: 10px;
+  background-color: red;
+  font-size: 25px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn:hover {
+  background-color: rgb(228, 7, 7);
+}
+ 
+
+/* ------------------------------Services Page------------------------------------------- */
+
+/* #services::before {
+  content: "";
+  /* background: rgb(6, 6, 73); */
+  /* background: url('https://www.shutterstock.com/image-illustration/violet-purple-red-dark-gradient-260nw-1007117992.jpg') no-repeat center center/cover ; 
+  background: url('https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-54362.jpg') no-repeat center center/cover;
+  position: absolute;
+  height: 93%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.5;
+  top: 0px;
+  left: 0px;
+} */
+
+#Services::before {
+  content: "";
+  /* background: rgb(1, 16, 50); */
+  /* background: url('https://www.shutterstock.com/image-illustration/violet-purple-red-dark-gradient-260nw-1007117992.jpg') no-repeat center center/cover ; */
+  background: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700326760.jpg') no-repeat center center/cover;
+  position: absolute;
+  height: 360%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.9;
+  top: 685px;
+  left: 0px;
+}
+
+/* .box{
+    width: 100px;
+  } */
+
+.h1 {
+  margin-top: 380px;
+  margin-left: 150px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.h2 {
+  margin-top: 140px;
+  margin-left: 870px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.h3 {
+  margin-top: 140px;
+  margin-left: 140px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.h4 {
+  margin-top: 130px;
+  margin-left: 830px;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.box1 {
+  height: 400px;
+  width: 600px;
+  margin-top: -150px;
+  margin-left: 800px;
+  
+}
+
+.box2 {
+  height: 400px;
+  width: 600px;
+  margin-left: 100px;
+  margin-top: -90px;
+}
+
+.box3 {
+  height: 380px;
+  width: 550px;
+  margin-top: -100px;
+  margin-left: 800px;
+}
+
+.box4 {
+  height: 400px;
+  width: 600px;
+  margin-left: 100px;
+  margin-top: -150px;
+}
+
+.p1 {
+  margin-top: -260px;
+  margin-left: 150px;
+  font-size: 25px;
+  text-align: justify;
+}
+
+.p2 {
+  margin-top: -300px;
+  margin-left: 870px;
+  font-size: 25px;
+  text-align: justify;
+}
+
+.p3 {
+  margin-top: -260px;
+  margin-left: 150px;
+  font-size: 25px;
+  text-align: justify;
+}
+
+.p4 {
+  margin-top: -300px;
+  margin-left: 830px;
+  font-size: 25px;
+  text-align: justify;
+}
+
+hr {
+  margin-top: 300px;
+  margin-left: 170px;
+  width: 1180px;
+  border: 5px solid white;
+}
+
+/* --------------------------------FAQ PAge ----------------------------------------------- */
+#ques h1 {
+  font-size: 40px;
+  color: white;
+  margin-top: 120px;
+}
+
+#Questions {
+  content: "";
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmNXNHlglITb79GBNC02eU70hEIj6_PiVq7Q&usqp=CAU') no-repeat center center/cover;
+  position: absolute;
+  height: 290%;
+  width: 100%;
+  z-index: -1;
+  opacity: 1.5;
+  top: 3320px;
+  left: 0px;
+}
+
+.faq-heading {
+  border-bottom: #777;
+  padding: 20px 60px;
+}
+
+.faq-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hr-line {
+  width: 70%;
+  margin: auto;
+
+}
+
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+  /* background-color: #eee; */
+  color: white;
+  cursor: pointer;
+  padding: 10px 10px;
+  width: 70%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: auto;
+  font-size: 30px;
+  margin-top: 100px;
+  margin-left: 280px;
+  /* font-size: 20px; */
+  /* display:flex; */
+}
+
+.faq-body {
+  /* margin: auto; */
+  /* text-align: center; */
+  width: 80%;
+  margin-left: 80px;
+  padding: auto;
+  font-size: 20px;
+  padding: 0 18px;
+  /* background-color: rgb(46, 46, 235); */
+  color: white;
+  display: none;
+  overflow: hidden;
+
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* .active,
+.faq-page:hover {
+  background-color: rgb(51, 51, 248);
+} */
+
+/* Style the faq-page panel. Note: hidden by default */
+
+.faq-page:after {
+  content: '\02795';
+  /* Unicode character for "plus" sign (+) */
+  font-size: 10px;
+  /* color: #777; */
+  float: right;
+  margin-left: 5px;
+  /* display:none; */
+}
+
+.active:after {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
+}
+
+
+/* -----------------------------Footer Section------------------------------------------------ */
+/* .footer {
+  background: #5d4d5d;
+} */
+
+.footer .box-container {
+  display: -ms-grid;
+  display: grid;
+  /* -ms-grid-columns: (minmax(25rem, 1fr)) [auto-fit]; */
+  /* grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); */
+  gap: 2rem;
+  margin-top: 1500px;
+  margin-left: 100px;
+}
+
+.footer .box-container .box h3 {
+  font-size: 2.2rem;
+  text-transform: capitalize;
+  color: white;
+  padding: 1rem 0;
+}
+
+.footer .box-container .box h3 i {
+  color: white;
+}
+
+.footer .box-container .box .share {
+  margin-top: 1rem;
+}
+
+.footer .box-container .box .share a {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 1.7rem;
+  background-color: white;
+  color: #fff;
+  margin-right: 0.3rem;
+  text-align: center;
+}
+
+.footer .box-container .box .share a:hover {
+  background-color: blue;
+}
+
+.footer .box-container .box .link {
+  font-size: 22px;
+  line-height: 2;
+  color: white;
+  padding: 0.5rem 0;
+  display: block;
+}
+
+.footer .box-container .box .link:hover {
+  color: #b9baf7;
+  text-decoration: underline;
+}
+
+.footer .box-container .box p {
+  /* font-size: 1.5rem; */
+  line-height: 2;
+  color: white;
+  padding: 1rem 0;
+}
+
+.footer .box-container .box .email {
+  width: 100%;
+  padding: 1.2rem 1.4rem;
+  /* font-size: 1.6rem; */
+  border: 0.1rem solid #0eb582;
+  margin-bottom: 1rem;
+}
+
+.footer .credit {
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 3rem;
+  font-size: 2rem;
+  text-transform: capitalize;
+  /* color: #444;  */
+  border-top: 0.1rem solid #0eb582;
+}
+
+.footer .credit span {
+  color: #0eb582;
+}
+
+.box_1{
+  margin-left: 50px;
+  font-size: 10px;
+}
+
+.box_2{
+  margin-left: 400px;
+  margin-top: -248px;
+}
+
+.box_3{
+  margin-left: 800px;
+  margin-top: -245px;
+}
+
+.box_4{
+  margin-left: 1200px;
+  margin-top: -245px;
+}
+
+/* ---------------------------------Responsive Design-------------------------------------------- */
+
+
+
+@media screen and (max-width:700px) and (min-width:350px) {
+  #home::before {
+    content: "";
+    /* background: rgb(6, 6, 73); */
+    background: url('https://repository-images.githubusercontent.com/299409710/b42f7780-0fe1-11eb-8460-e459acd20fb4') no-repeat center center/cover;
+    position: absolute;
+    height: 83%;
+    width: 100%;
+    z-index: -1;
+    opacity: 7;
+    top: 0px;
+    left: 0px;
+  }
+
+  h1 {
+    margin-left: 10px;
+    margin-top: 100px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+  }
+  
+  p {
+    margin-top: 10px;
+    font-size: 15px;
+    color: white;
+    margin-left: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #logo img {
+    margin-top: 30px;
+    /* font-size:-200px; */
+    /* margin-left: -100px; */
+    height: 50px;
+  }
+  
+  #options {
+    margin-top: -45px;
+    margin-left: 10px;
+  }
+  
+  #option {
+    padding: 1px;
+    height: 25px;
+    width: 75px;
+    margin-left: 193px;
+    margin-top: -200px;
+    background: none;
+    border-radius: 10px;
+    font-size: 12px;
+    justify-content: center;
+    color: white;
+    border: 3px solid white;
+  }
+  
+  .sign-in {
+    padding: 1px;
+    height: 30px;
+    width: 75px;
+    margin-left: 0px;
+    color: white;
+    background-color: red;
+    font-size: 12px;
+    border-radius: 10px;
+  }
+  
+  .sign-in a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  
+  .sign-in:hover {
+    background-color: rgb(228, 7, 7);
+  }
+
+  .email p {
+    font-size: 15px;
+    margin-top: 40px;
+  }
+  
+  .input-box {
+    text-align: center;
+    display: block;
+    padding: 1px;
+    font-size: 10px;
+    margin-left: 5px;
+  }
+  
+  .text {
+    border: 3px solid white;
+    padding-left: 1px;
+    border-radius: 8px;
+    width: 240px;
+    height: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    background-color: rgb(27, 26, 26);
+    /* background: none; */
+    /* font-weight: bolder; */
+  }
+  
+  .btn {
+    padding: 0px;
+    height: 30px;
+    width: 100px;
+    /* margin-left: 850px; */
+    margin-top: -200px;
+    background-color: red;
+    font-size: 13px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+  
+  .btn a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .btn:hover {
+    background-color: rgb(228, 7, 7);
+  }
+
+  /* #services::before {
+    content: "";
+    /* background: rgb(6, 6, 73); */
+    /* /* background: url('https://www.shutterstock.com/image-illustration/violet-purple-red-dark-gradient-260nw-1007117992.jpg') no-repeat center center/cover ; 
+    background: url('https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-54362.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 82%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    top: 0px;
+    left: 0px;
+  } */
+  
+  #Services::before {
+    content: "";
+    /* background: rgb(1, 16, 50); */
+    /* background: url('https://www.shutterstock.com/image-illustration/violet-purple-red-dark-gradient-260nw-1007117992.jpg') no-repeat center center/cover ; */
+    background: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700326760.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 310%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    top: 532px;
+    left: 0px;
+  }
+  
+  /* .box{
+      width: 100px;
+    } */
+  
+  .h1 {
+    margin-top: 200px;
+    margin-left: 110px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  .h2 {
+    margin-top: 40px;
+    margin-left: 94px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  .h3 {
+    margin-top: 40px;
+    margin-left: 65px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  .h4 {
+    margin-top: 40px;
+    margin-left: 60px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  .box1{
+    height: 200px;
+    width: 310px;
+    margin-top: 17px;
+    margin-left: 30px;
+  }
+  
+  .box2 {
+    height: 200px;
+    width: 310px;
+    margin-top: 8px;
+    margin-left: 30px;
+  }
+  
+  .box3 {
+    height: 200px;
+    width: 310px;
+    margin-top: 17px;
+    margin-left: 30px;
+  }
+  
+  .box4 {
+    height: 200px;
+    width: 310px;
+    margin-top: 17px;
+    margin-left: 30px;
+  }
+  
+  .p1 {
+    margin-top: 12px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 15px;
+  }
+  
+  .p2 {
+    margin-top: 10px;
+    margin-left: 10px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .p3 {
+    margin-top: 10px;
+    margin-left: 10px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .p4 {
+    margin-top: 10px;
+    margin-left: 10px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  hr {
+    margin-top: 70px;
+    margin-left: 20px;
+    width: 320px;
+    border: 3px solid white;
+  }
+  
+  #ques h1 {
+    font-size: 23px;
+    color: white;
+  }
+  
+  #Questions {
+    content: "";
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmNXNHlglITb79GBNC02eU70hEIj6_PiVq7Q&usqp=CAU') no-repeat center center/cover;
+    position: absolute;
+    height: 250%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1.5;
+    top: 2500px;
+    left: 0px;
+  }
+  
+  .faq-heading {
+    border-bottom: #777;
+    padding: 20px 60px;
+  }
+  
+  .faq-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .hr-line {
+    width: 70%;
+    margin: auto;
+    border: 1px solid white;
+  
+  }
+  
+  /* Style the buttons that are used to open and close the faq-page body */
+  .faq-page {
+    /* background-color: #eee; */
+    color: white;
+    cursor: pointer;
+    padding: 10px 10px;
+    width: 70%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+    font-size: 17px;
+    margin-top: 80px;
+    margin-left: 47px;
+    /* font-size: 20px; */
+    /* display:flex; */
+  }
+  
+  .faq-body {
+    /* margin: auto; */
+    /* text-align: center; */
+    width: 80%;
+    margin-left: 80px;
+    padding: auto;
+    font-size: 10px;
+    padding: 0px 18px;
+    /* background-color: rgb(46, 46, 235); */
+    color: white;
+    display: none;
+    overflow: hidden;
+  
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  /* .active,
+  .faq-page:hover {
+    background-color: rgb(51, 51, 248);
+  } */
+  
+  /* Style the faq-page panel. Note: hidden by default */
+  
+  .faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 10px;
+    /* color: #777; */
+    float: right;
+    margin-left: 5px;
+    /* display:none; */
+  }
+  
+  .active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+  }
+
+  .footer .box-container {
+    display: -ms-grid;
+    display: grid;
+    /* -ms-grid-columns: (minmax(25rem, 1fr)) [auto-fit]; */
+    /* grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); */
+    gap: 2rem;
+    margin-top: 1050px;
+    margin-left: 20px;
+  }
+  
+  .footer .box-container .box h3 {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  .footer .box-container .box h3 i {
+    color: white;
+  }
+  
+  .footer .box-container .box .share {
+    margin-top: 1rem;
+  }
+  
+  .footer .box-container .box .share a {
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 10px;
+    background-color: white;
+    color: #fff;
+    margin-right: 0.3rem;
+    text-align: center;
+  }
+  
+  .footer .box-container .box .share a:hover {
+    background-color: blue;
+  }
+  
+  .footer .box-container .box .link {
+    font-size: 9px;
+    line-height: 2;
+    color: white;
+    padding: 0.5rem 0;
+    display: block;
+  }
+  
+  .footer .box-container .box .link:hover {
+    color: #b9baf7;
+    text-decoration: underline;
+  }
+  
+  .footer .box-container .box p {
+    /* font-size: 1.5rem; */
+    line-height: 2;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  .footer .box-container .box .email {
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    /* font-size: 1.6rem; */
+    border: 0.1rem solid #0eb582;
+    margin-bottom: 1rem;
+  }
+  
+  .footer .credit {
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 3rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+    /* color: #444;  */
+    border-top: 0.1rem solid #0eb582;
+  }
+  
+  .footer .credit span {
+    color: #0eb582;
+  }
+  
+  .box_1{
+    margin-left: -10px;
+    /* font-size: 10px; */
+  }
+  
+  .box_2{
+    margin-left: 90px;
+    margin-top: -137px;
+  }
+  
+  .box_3{
+    margin-left: 185px;
+    margin-top: -137px;
+  }
+  
+  .box_4{
+    margin-left: 285px;
+    margin-top: -137px;
+  }
+}
+
+
+
+
+
+
+/* --------------------------------------2nd responsive design---------------------------- */
+
+@media screen and (max-width:900px) and (min-width:400px) {
+  #home::before {
+    content: "";
+    /* background: rgb(6, 6, 73); */
+    background: url('https://repository-images.githubusercontent.com/299409710/b42f7780-0fe1-11eb-8460-e459acd20fb4') no-repeat center center/cover;
+    position: absolute;
+    height: 62%;
+    width: 100%;
+    z-index: -1;
+    opacity: 7;
+    top: 0px;
+    left: 0px;
+  }
+
+  h1 {
+    margin-left: 10px;
+    margin-top: 70px;
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+  }
+  
+  p {
+    margin-top: 10px;
+    font-size: 17px;
+    color: white;
+    margin-left: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #logo img {
+    margin-top: 30px;
+    /* font-size:-200px; */
+    /* margin-left: -100px; */
+    height: 50px;
+  }
+  
+  #options {
+    margin-top: -45px;
+    margin-left: 10px;
+  }
+  
+  #option {
+    padding: 1px;
+    height: 25px;
+    width: 75px;
+    margin-left: 199px;
+    margin-top: -200px;
+    background: none;
+    border-radius: 10px;
+    font-size: 12px;
+    justify-content: center;
+    color: white;
+    border: 3px solid white;
+  }
+  
+  .sign-in {
+    padding: 1px;
+    height: 30px;
+    width: 75px;
+    margin-left: 0px;
+    color: white;
+    background-color: red;
+    font-size: 12px;
+    border-radius: 10px;
+  }
+  
+  .sign-in a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  
+  .sign-in:hover {
+    background-color: rgb(228, 7, 7);
+  }
+
+  .email p {
+    font-size: 18px;
+    margin-top: 40px;
+  }
+  
+  .input-box {
+    text-align: center;
+    display: block;
+    padding: 1px;
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  
+  .text {
+    border: 3px solid white;
+    padding-left: 1px;
+    border-radius: 8px;
+    width: 250px;
+    height: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    background-color: rgb(27, 26, 26);
+    /* background: none; */
+    /* font-weight: bolder; */
+  }
+  
+  .btn {
+    padding: 0px;
+    height: 30px;
+    width: 100px;
+    /* margin-left: 850px; */
+    margin-top: -200px;
+    background-color: red;
+    font-size: 13px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+  
+  .btn a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .btn:hover {
+    background-color: rgb(228, 7, 7);
+  }
+
+   /* #services::before {
+    content: "";
+    /* background: rgb(6, 6, 73); */
+    /* /* background: url('https://www.shutterstock.com/image-illustration/violet-purple-red-dark-gradient-260nw-1007117992.jpg') no-repeat center center/cover ;  
+    background: url('https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-54362.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 61%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    top: 0px;
+    left: 0px;
+  } */
+  
+  #Services::before {
+    content: "";
+    /* background: rgb(1, 16, 50); */
+    /* background: url('https://www.shutterstock.com/image-illustration/violet-purple-red-dark-gradient-260nw-1007117992.jpg') no-repeat center center/cover ; */
+    background: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700326760.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 300%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    top: 549px;
+    left: 0px;
+  }
+  
+  /* .box{
+      width: 100px;
+    } */
+  
+  .h1 {
+    margin-top: 200px;
+    margin-left: 110px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  .h2 {
+    margin-top: 40px;
+    margin-left: 94px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  .h3 {
+    margin-top: 40px;
+    margin-left: 65px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  .h4 {
+    margin-top: 40px;
+    margin-left: 60px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  .box1{
+    height: 200px;
+    width: 310px;
+    margin-top: 17px;
+    margin-left: 30px;
+  }
+  
+  .box2 {
+    height: 200px;
+    width: 310px;
+    margin-top: 8px;
+    margin-left: 30px;
+  }
+  
+  .box3 {
+    height: 200px;
+    width: 310px;
+    margin-top: 17px;
+    margin-left: 30px;
+  }
+  
+  .box4 {
+    height: 200px;
+    width: 310px;
+    margin-top: 17px;
+    margin-left: 30px;
+  }
+  
+  .p1 {
+    margin-top: 12px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .p2 {
+    margin-top: 10px;
+    margin-left: 10px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .p3 {
+    margin-top: 10px;
+    margin-left: 10px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .p4 {
+    margin-top: 10px;
+    margin-left: 10px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  hr {
+    margin-top: 70px;
+    margin-left: 20px;
+    width: 320px;
+    border: 3px solid white;
+  }
+  
+  #ques h1 {
+    font-size: 23px;
+    color: white;
+
+  }
+  
+  #Questions {
+    content: "";
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmNXNHlglITb79GBNC02eU70hEIj6_PiVq7Q&usqp=CAU') no-repeat center center/cover;
+    position: absolute;
+    height: 200%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1.5;
+    top: 2500px;
+    left: 0px;
+  }
+  
+  .faq-heading {
+    border-bottom: #777;
+    padding: 20px 60px;
+  }
+  
+  .faq-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .hr-line {
+    width: 70%;
+    margin: auto;
+    border: 1px solid white;
+  
+  }
+  
+  /* Style the buttons that are used to open and close the faq-page body */
+  .faq-page {
+    /* background-color: #eee; */
+    color: white;
+    cursor: pointer;
+    padding: 10px 10px;
+    width: 70%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+    font-size: 17px;
+    margin-top: 80px;
+    margin-left: 47px;
+    /* font-size: 20px; */
+    /* display:flex; */
+  }
+  
+  .faq-body {
+    /* margin: auto; */
+    /* text-align: center; */
+    width: 80%;
+    margin-left: 80px;
+    padding: auto;
+    font-size: 10px;
+    padding: 0px 18px;
+    /* background-color: rgb(46, 46, 235); */
+    color: white;
+    display: none;
+    overflow: hidden;
+  
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  /* .active,
+  .faq-page:hover {
+    background-color: rgb(51, 51, 248);
+  } */
+  
+  /* Style the faq-page panel. Note: hidden by default */
+  
+  .faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 10px;
+    /* color: #777; */
+    float: right;
+    margin-left: 5px;
+    /* display:none; */
+  }
+  
+  .active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+  }
+
+  .footer .box-container {
+    display: -ms-grid;
+    display: grid;
+    /* -ms-grid-columns: (minmax(25rem, 1fr)) [auto-fit]; */
+    /* grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); */
+    gap: 2rem;
+    margin-top: 1080px;
+    margin-left: 20px;
+  }
+  
+  .footer .box-container .box h3 {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  .footer .box-container .box h3 i {
+    color: white;
+  }
+  
+  .footer .box-container .box .share {
+    margin-top: 1rem;
+  }
+  
+  .footer .box-container .box .share a {
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 10px;
+    background-color: white;
+    color: #fff;
+    margin-right: 0.3rem;
+    text-align: center;
+  }
+  
+  .footer .box-container .box .share a:hover {
+    background-color: blue;
+  }
+  
+  .footer .box-container .box .link {
+    font-size: 9px;
+    line-height: 2;
+    color: white;
+    padding: 0.5rem 0;
+    display: block;
+  }
+  
+  .footer .box-container .box .link:hover {
+    color: #b9baf7;
+    text-decoration: underline;
+  }
+  
+  .footer .box-container .box p {
+    /* font-size: 1.5rem; */
+    line-height: 2;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  .footer .box-container .box .email {
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    /* font-size: 1.6rem; */
+    border: 0.1rem solid #0eb582;
+    margin-bottom: 1rem;
+  }
+  
+  .footer .credit {
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 3rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+    /* color: #444;  */
+    border-top: 0.1rem solid #0eb582;
+  }
+  
+  .footer .credit span {
+    color: #0eb582;
+  }
+  
+  .box_1{
+    margin-left: -10px;
+    margin-top: -30px;
+    /* font-size: 10px; */
+  }
+  
+  .box_2{
+    margin-left: 90px;
+    margin-top: -137px;
+  }
+  
+  .box_3{
+    margin-left: 185px;
+    margin-top: -137px;
+  }
+  
+  .box_4{
+    margin-left: 285px;
+    margin-top: -137px;
+  }
+}
+
+
+
+
+
+/* ---------------------------------3rd Responsive design-------------------------------------------- */
+
+@media screen and (max-width:1200px) and (min-width:910px) {
+  #home::before {
+    content: "";
+    /* background: rgb(6, 6, 73); */
+    background: url('https://help.nflxext.com/0af6ce3e-b27a-4722-a5f0-e32af4df3045_what_is_netflix_5_en.png') no-repeat center center/cover;
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1.50;
+    top: 0px;
+    left: 0px;
+  }
+
+  h1 {
+    margin-left: 10px;
+    margin-top: 70px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+  }
+  
+  p {
+    margin-top: 10px;
+    font-size: 50px;
+    color: white;
+    margin-left: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #logo img {
+    margin-top: 30px;
+    /* font-size:-200px; */
+    /* margin-left: -100px; */
+    height: 50px;
+  }
+  
+  #options {
+    margin-top: -45px;
+    margin-left: 10px;
+  }
+  
+  #option {
+    padding: 1px;
+    height: 25px;
+    width: 75px;
+    margin-left: 193px;
+    margin-top: -200px;
+    background: none;
+    border-radius: 10px;
+    font-size: 12px;
+    justify-content: center;
+    color: white;
+    border: 3px solid white;
+  }
+  
+  .sign-in {
+    padding: 1px;
+    height: 30px;
+    width: 75px;
+    margin-left: 0px;
+    color: white;
+    background-color: red;
+    font-size: 12px;
+    border-radius: 10px;
+  }
+  
+  .sign-in a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  
+  .sign-in:hover {
+    background-color: rgb(228, 7, 7);
+  }
+
+  .email p {
+    font-size: 18px;
+    margin-top: 40px;
+  }
+  
+  .input-box {
+    text-align: center;
+    display: block;
+    padding: 1px;
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  
+  .text {
+    border: 3px solid white;
+    padding-left: 1px;
+    border-radius: 8px;
+    width: 250px;
+    height: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    background-color: rgb(27, 26, 26);
+    /* background: none; */
+    /* font-weight: bolder; */
+  }
+  
+  .btn {
+    padding: 0px;
+    height: 30px;
+    width: 100px;
+    /* margin-left: 850px; */
+    margin-top: -200px;
+    background-color: red;
+    font-size: 13px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+  
+  .btn a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .btn:hover {
+    background-color: rgb(228, 7, 7);
+  }
+
+  /* #services::before {
+    content: "";
+    /* background: rgb(6, 6, 73); */
+    /* background: url('https://www.shutterstock.com/image-illustration/violet-purple-red-dark-gradient-260nw-1007117992.jpg') no-repeat center center/cover ; 
+    background: url('https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-54362.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    top: 0px;
+    left: 0px;
+  } */
+  
+  #Services::before {
+    content: "";
+    /* background: rgb(1, 16, 50); */
+    /* background: url('https://www.shutterstock.com/image-illustration/violet-purple-red-dark-gradient-260nw-1007117992.jpg') no-repeat center center/cover ; */
+    background: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700326760.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 300%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    top: 532px;
+    left: 0px;
+  }
+  
+  /* .box{
+      width: 100px;
+    } */
+  
+  .h1 {
+    margin-top: 200px;
+    margin-left: 110px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  .h2 {
+    margin-top: 40px;
+    margin-left: 94px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  .h3 {
+    margin-top: 40px;
+    margin-left: 65px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  .h4 {
+    margin-top: 40px;
+    margin-left: 60px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  .box1{
+    height: 200px;
+    width: 310px;
+    margin-top: 17px;
+    margin-left: 30px;
+  }
+  
+  .box2 {
+    height: 200px;
+    width: 310px;
+    margin-top: 8px;
+    margin-left: 30px;
+  }
+  
+  .box3 {
+    height: 200px;
+    width: 310px;
+    margin-top: 17px;
+    margin-left: 30px;
+  }
+  
+  .box4 {
+    height: 200px;
+    width: 310px;
+    margin-top: 17px;
+    margin-left: 30px;
+  }
+  
+  .p1 {
+    margin-top: 12px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .p2 {
+    margin-top: 10px;
+    margin-left: 10px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .p3 {
+    margin-top: 10px;
+    margin-left: 10px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .p4 {
+    margin-top: 10px;
+    margin-left: 10px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  hr {
+    margin-top: 70px;
+    margin-left: 20px;
+    width: 320px;
+    border: 3px solid white;
+  }
+  
+  #ques h1 {
+    font-size: 23px;
+    color: white;
+  }
+  
+  #Questions {
+    content: "";
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmNXNHlglITb79GBNC02eU70hEIj6_PiVq7Q&usqp=CAU') no-repeat center center/cover;
+    position: absolute;
+    height: 250%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1.5;
+    top: 2500px;
+    left: 0px;
+  }
+  
+  .faq-heading {
+    border-bottom: #777;
+    padding: 20px 60px;
+  }
+  
+  .faq-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .hr-line {
+    width: 70%;
+    margin: auto;
+    border: 1px solid white;
+  
+  }
+  
+  /* Style the buttons that are used to open and close the faq-page body */
+  .faq-page {
+    /* background-color: #eee; */
+    color: white;
+    cursor: pointer;
+    padding: 10px 10px;
+    width: 70%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+    font-size: 17px;
+    margin-top: 80px;
+    margin-left: 47px;
+    /* font-size: 20px; */
+    /* display:flex; */
+  }
+  
+  .faq-body {
+    /* margin: auto; */
+    /* text-align: center; */
+    width: 80%;
+    margin-left: 80px;
+    padding: auto;
+    font-size: 10px;
+    padding: 0px 18px;
+    /* background-color: rgb(46, 46, 235); */
+    color: white;
+    display: none;
+    overflow: hidden;
+  
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  /* .active,
+  .faq-page:hover {
+    background-color: rgb(51, 51, 248);
+  } */
+  
+  /* Style the faq-page panel. Note: hidden by default */
+  
+  .faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 10px;
+    /* color: #777; */
+    float: right;
+    margin-left: 5px;
+    /* display:none; */
+  }
+  
+  .active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+  }
+
+  .footer .box-container {
+    display: -ms-grid;
+    display: grid;
+    /* -ms-grid-columns: (minmax(25rem, 1fr)) [auto-fit]; */
+    /* grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); */
+    gap: 2rem;
+    margin-top: 1050px;
+    margin-left: 20px;
+  }
+  
+  .footer .box-container .box h3 {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  .footer .box-container .box h3 i {
+    color: white;
+  }
+  
+  .footer .box-container .box .share {
+    margin-top: 1rem;
+  }
+  
+  .footer .box-container .box .share a {
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 10px;
+    background-color: white;
+    color: #fff;
+    margin-right: 0.3rem;
+    text-align: center;
+  }
+  
+  .footer .box-container .box .share a:hover {
+    background-color: blue;
+  }
+  
+  .footer .box-container .box .link {
+    font-size: 9px;
+    line-height: 2;
+    color: white;
+    padding: 0.5rem 0;
+    display: block;
+  }
+  
+  .footer .box-container .box .link:hover {
+    color: #b9baf7;
+    text-decoration: underline;
+  }
+  
+  .footer .box-container .box p {
+    /* font-size: 1.5rem; */
+    line-height: 2;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  .footer .box-container .box .email {
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    /* font-size: 1.6rem; */
+    border: 0.1rem solid #0eb582;
+    margin-bottom: 1rem;
+  }
+  
+  .footer .credit {
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 3rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+    /* color: #444;  */
+    border-top: 0.1rem solid #0eb582;
+  }
+  
+  .footer .credit span {
+    color: #0eb582;
+  }
+  
+  .box_1{
+    margin-left: -10px;
+    /* font-size: 10px; */
+  }
+  
+  .box_2{
+    margin-left: 90px;
+    margin-top: -137px;
+  }
+  
+  .box_3{
+    margin-left: 185px;
+    margin-top: -137px;
+  }
+  
+  .box_4{
+    margin-left: 285px;
+    margin-top: -137px;
+  }
+}
+
+
+
+

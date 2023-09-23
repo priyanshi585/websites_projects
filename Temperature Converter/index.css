@@ -1,0 +1,452 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+body::before {
+    content: "";
+    /* background: black; */
+    background-color: #b2c5e7;
+    /* background: url(https://img.freepik.com/free-vector/blue-gradient-background-illustration_53876-116696.jpg) */
+    /* no-repeat center center/cover; */
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    top: 0px;
+    left: 0px;
+}
+
+.container {
+    /* max-width: 550px; */
+    background: rgb(45 58 73);
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.4);
+    font-family: sans-serif;
+    padding: 20px;
+    width: 750px;
+}
+
+.cel {
+    height: 670px;
+    margin-top: 30px;
+    margin-left: -200px;
+}
+
+.feh {
+    height: 700px;
+    margin-left: 130px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    /* gap: 10px; */
+}
+
+.Temperature-icon {
+    font-size: 45px;
+    color: #fff;
+}
+
+h1 {
+    color: #fff;
+    letter-spacing: 1.2px;
+    font-size: 30px;
+}
+
+#celsius,
+#fahrenheit,
+#kelvin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+input {
+    flex: 5;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 8px 0 0 8px;
+    padding: 0 10px;
+}
+
+
+/* for chrome, safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+
+.icon {
+    flex: 1;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 30px;
+    background: #4d5964;
+    color: #fff;
+    border-radius: 0 8px 8px 0;
+}
+
+
+.button {
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+.button button {
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button button:hover {
+    background: #000;
+    color: #fff;
+}
+
+@media screen and (max-width:600px) and (min-width:200px){
+
+    body::before {
+        content: "";
+        /* background: black; */
+        background-color: #b2c5e7;
+        /* background: url(https://img.freepik.com/free-vector/blue-gradient-background-illustration_53876-116696.jpg) */
+        /* no-repeat center center/cover; */
+        position: absolute;
+        height: 200%;
+        width: 200%;
+        z-index: -1;
+        opacity: 0.9;
+        top: 0px;
+        left: 0px;
+    }
+    
+    .container {
+        /* max-width: 550px; */
+        background: rgb(45 58 73);
+        border-radius: 8px;
+        box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.4);
+        font-family: sans-serif;
+        padding: 20px;
+        width: 450px;
+        margin-top: 10px;
+        margin-left:-300px;
+    }
+
+    .cel {
+        height: 50px;
+        width: -10px;
+        margin-top: 120px;
+        /* margin-left: 30px; */
+    }
+    
+    .feh {
+        height: 50px;
+        width: 0px;
+        margin-top: 90px;
+        /* margin-left: 30px; */
+    }
+    
+    h1 {
+        color: #fff;
+        letter-spacing: 1.2px;
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (max-width:800px) and (min-width:500px){
+    
+
+    .container {
+        /* max-width: 550px; */
+        background: rgb(45 58 73);
+        border-radius: 8px;
+        box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.4);
+        font-family: sans-serif;
+        padding: 20px;
+        width: 350px;
+        margin-top: -80px;
+        margin-left:-100px;
+    }
+
+    h1 {
+        color: #fff;
+        letter-spacing: 1.2px;
+        font-size: 20px;
+    }
+    
+    input {
+        flex: 5;
+        height: 50px;
+        font-size: 17px;
+        font-weight: 600;
+        text-align: center;
+        border: none;
+        outline: none;
+        border-radius: 8px 0 0 8px;
+        padding: 0 10px;
+    }
+    
+    .icon {
+        flex: 1;
+        height: 50px;
+        line-height: 60px;
+        padding: 0 5px;
+        text-align: center;
+        font-size: 30px;
+        background: #4d5964;
+        color: #fff;
+        border-radius: 0 8px 8px 0;
+    }
+
+    body::before {
+        content: "";
+        /* background: black; */
+        background-color: #b2c5e7;
+        /* background: url(https://img.freepik.com/free-vector/blue-gradient-background-illustration_53876-116696.jpg) */
+        /* no-repeat center center/cover; */
+        position: absolute;
+        height: 120%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.9;
+        top: 0px;
+        left: 0px;
+    }
+    .cel {
+        height: 0px;
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+    
+    .feh {
+        height: 0px;
+        margin-top: 100px;
+        margin-left:30px;
+    }
+    .h1{
+        color: #fff;
+        letter-spacing: 1.2px;
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width:400px) and (min-width:300px){
+    
+
+    .container {
+        /* max-width: 550px; */
+        background: rgb(45 58 73);
+        border-radius: 8px;
+        box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.4);
+        font-family: sans-serif;
+        padding: 20px;
+        width: 250px;
+        margin-top: -80px;
+        margin-left: -350px;
+    }
+    body::before {
+        content: "";
+        /* background: black; */
+        background-color: #b2c5e7;
+        /* background: url(https://img.freepik.com/free-vector/blue-gradient-background-illustration_53876-116696.jpg) */
+        /* no-repeat center center/cover; */
+        position: absolute;
+        height: 120%;
+        width: 120%;
+        z-index: -1;
+        opacity: 0.9;
+        top: 0px;
+        left: 0px;
+    }
+}
+
+@media screen and (max-width:600px) and (min-width:300px){
+    
+
+    .container {
+        /* max-width: 550px; */
+        background: rgb(45 58 73);
+        border-radius: 8px;
+        box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.4);
+        font-family: sans-serif;
+        padding: 20px;
+        width: 300px;
+        margin-top: -80px;
+        margin-left: -300px;
+    }
+
+    h1 {
+        color: #fff;
+        letter-spacing: 1.2px;
+        font-size: 20px;
+    }
+    
+    input {
+        flex: 5;
+        height: 50px;
+        font-size: 17px;
+        font-weight: 600;
+        text-align: center;
+        border: none;
+        outline: none;
+        border-radius: 8px 0 0 8px;
+        padding: 0 10px;
+    }
+    
+    .icon {
+        flex: 1;
+        height: 50px;
+        line-height: 60px;
+        padding: 0 5px;
+        text-align: center;
+        font-size: 30px;
+        background: #4d5964;
+        color: #fff;
+        border-radius: 0 8px 8px 0;
+    }
+
+    body::before {
+        content: "";
+        /* background: black; */
+        background-color: #b2c5e7;
+        /* background: url(https://img.freepik.com/free-vector/blue-gradient-background-illustration_53876-116696.jpg) */
+        /* no-repeat center center/cover; */
+        position: absolute;
+        height: 120%;
+        width: 120%;
+        z-index: -1;
+        opacity: 0.9;
+        top: 0px;
+        left: 0px;
+    }
+    .cel {
+        height: 100px;
+        margin-top: 100px;
+        margin-left: -200px;
+    }
+    
+    .feh {
+        height: 100px;
+        margin-top: 100px;
+        margin-left: -420px;
+    }
+    .h1{
+        color: #fff;
+        letter-spacing: 1.2px;
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width:900px) and (min-width:700px) {
+ 
+    
+    .container {
+        /* max-width: 550px; */
+        background: rgb(45 58 73);
+        border-radius: 8px;
+        box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.4);
+        font-family: sans-serif;
+        padding: 20px;
+        width: 450px;
+        margin-top: 100px;
+        margin-left:-50px;
+    }
+
+    .cel {
+        height: 520px;
+        width: 335px;
+        margin-top: 120px;
+        margin-left: -70px;
+    }
+    
+    .feh {
+        height: 550px;
+        width: 150px;
+        margin-top: 90px;
+        margin-left: 30px;
+    }
+    
+    h1 {
+        color: #fff;
+        letter-spacing: 1.2px;
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width:1400px) and (min-width:900px){
+
+
+    .container {
+        /* max-width: 550px; */
+        background: rgb(45 58 73);
+        border-radius: 8px;
+        box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.4);
+        font-family: sans-serif;
+        padding: 20px;
+        width: 450px;
+        margin-top: 30px;
+        margin-left:-50px;
+    }
+
+    .cel {
+        height: 520px;
+        width: 335px;
+        margin-top: 120px;
+        margin-left: -70px;
+    }
+    
+    .feh {
+        height: 550px;
+        width: 150px;
+        margin-top: 90px;
+        margin-left: 30px;
+    }
+    
+    h1 {
+        color: #fff;
+        letter-spacing: 1.2px;
+        font-size: 28px;
+    }
+    body::before {
+        content: "";
+        /* background: black; */
+        background-color: #b2c5e7;
+        /* background: url(https://img.freepik.com/free-vector/blue-gradient-background-illustration_53876-116696.jpg) */
+        /* no-repeat center center/cover; */
+        position: absolute;
+        height: 110%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.9;
+        top: 0px;
+        left: 0px;
+    }
+}
